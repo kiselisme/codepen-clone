@@ -1,0 +1,31 @@
+.header {
+    height: 70px;
+    flex-shrink: 0;
+    background: green;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 2px solid #333;
+    padding: 0 15px;
+    gap: 15px;
+}
+
+.btn {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 4px;
+    color: white;
+    background: #333;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}
+
+.btn:hover {
+    background: #444;
+}
