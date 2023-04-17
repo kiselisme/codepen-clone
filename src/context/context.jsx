@@ -9,7 +9,7 @@ const EditorProvider = ({children}) => {
     const [js, setJs] = useState('')
 
     const value = {
-        html, css, js, setHtml, setCss, setJs
+        html, css, js, setHtml, setCss, setJs,
     }
     
     return (

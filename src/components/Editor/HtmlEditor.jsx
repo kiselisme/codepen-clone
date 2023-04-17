@@ -6,12 +6,14 @@ import "ace-builds/src-noconflict/snippets/html";
 import "ace-builds/src-noconflict/ext-language_tools";
 import {EditorContext} from '../../context/context'
 const  HtmlEditor = () => {
-    const {html, setHtml}
+    const {html, setHtml} = useContext(EditorContext)
     return (
         <AceEditor
         placeholder='Write your HTML code here'
         mode='html'
         theme='monokai'
+        value={html}
+        onChange={value => setHtml(value)}
         name='editor_html'
         fontSize='16'
         height={'100%'}
