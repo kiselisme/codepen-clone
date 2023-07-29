@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# A "CodePen" Code Editor Webpage Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An impressive fully responsive webpage clone of the "CodePen" code editor. Created with HTML, CSS, and JavaScript, it replicates the original's functionality and appearance while ensuring a smooth experience on various devices. Additionally, it features an integrated camera, allowing users to capture images and videos directly within the editor.
 
 ## Available Scripts
 
